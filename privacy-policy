@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Postcode Shipping Rules</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #202223;
+            max-width: 750px;
+            margin: 50px auto;
+            padding: 0 20px;
+            background-color: #fafbfb;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 2rem; color: #1a1c1d; margin-bottom: 24px; border-bottom: 2px solid #e1e3e5; padding-bottom: 12px; }
+        h2 { font-size: 1.4rem; color: #2c2e30; margin-top: 32px; margin-bottom: 16px; }
+        p, li { font-size: 1rem; color: #434649; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .contact-box { background-color: #f1f2f4; padding: 20px; border-radius: 6px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy for Postcode Shipping Rules</h1>
+    <p><strong>Effective Date:</strong> June 16, 2026</p>
+
+    <p>This privacy policy describes how we collect, use, and process information when you install or use the Postcode Shipping Rules Shopify Application (the "App").</p>
+
+    <h2>1. Data Minimisation and Storage</h2>
+    <p>We believe in strict data minimisation. Our App only saves the minimum required data to function. We do not collect, read, or store any personal customer information (such as customer names, email addresses, or specific street addresses).</p>
+    <p>The only data we permanently store in our application database includes:</p>
+    <ul>
+        <li>The merchant's Shopify store URL website address.</li>
+        <li>The rural/custom postcode configurations selected and created by the store owner.</li>
+    </ul>
+
+    <h2>2. Information We Access via Shopify APIs</h2>
+    <p>When you install the App, we temporarily access specific store configurations via Shopify's OAuth framework to execute shipping rules at checkout:</p>
+    <ul>
+        <li><strong>Merchant Data:</strong> Store name, account email, and shop URL to authenticate your account and manage your settings.</li>
+        <li><strong>Shipping Data:</strong> The postcode entered at checkout to evaluate whether to hide or show specific delivery options. This evaluation happens in real-time; the customer's postcode is never saved or logged in our database.</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We process your configuration settings strictly to provide the App's core functionality, which includes:</p>
+    <ul>
+        <li>Hiding or showing specific delivery options based on the postcodes selected by the store owner.</li>
+        <li>Providing application support and troubleshooting merchant configuration issues.</li>
+    </ul>
+
+    <h2>4. Data Retention and Shopify GDPR/CCPA Webhooks</h2>
+    <p>Because we do not store customer personal data, we do not maintain consumer profiles. In strict compliance with Shopify data protection standards, we support and process all mandatory Shopify webhooks:</p>
+    <ul>
+        <li><strong>customers/data_request:</strong> Since we do not collect or store customer personal data, we hold no records to return. We will respond confirming zero data retention.</li>
+        <li><strong>customers/redact:</strong> We do not store customer data, meaning no customer redaction actions are required in our database.</li>
+        <li><strong>shop/redact:</strong> Upon receiving this notification, we completely erase all associated store settings, configurations, and URL data from our database within 48 hours of App uninstallation.</li>
+    </ul>
+
+    <div class="contact-box">
+        <h2>5. Contact Us</h2>
+        <p>If you have questions regarding this privacy policy or wish to discuss your store configurations, please contact us at:</p>
+        <p><strong>Email:</strong> purplemouseonatricycle@gmail.com</p>
+    </div>
+</div>
+
+</body>
+</html>
