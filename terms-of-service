@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | Postcode Shipping Rules</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #202223;
+            max-width: 750px;
+            margin: 50px auto;
+            padding: 0 20px;
+            background-color: #fafbfb;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 2rem; color: #1a1c1d; margin-bottom: 24px; border-bottom: 2px solid #e1e3e5; padding-bottom: 12px; }
+        h2 { font-size: 1.4rem; color: #2c2e30; margin-top: 32px; margin-bottom: 16px; }
+        p, li { font-size: 1rem; color: #434649; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .contact-box { background-color: #f1f2f4; padding: 20px; border-radius: 6px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Terms of Service</h1>
+    <p><strong>Effective Date:</strong> June 16, 2026</p>
+
+    <p>Welcome to Postcode Shipping Rules. By installing or using our Shopify Application (the "App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, you must immediately uninstall the App.</p>
+
+    <h2>1. The Service</h2>
+    <p>The App provides functional tools enabling Shopify store owners ("Merchants") to conditionally hide or show specific shipping options during checkout based on the postcodes configured within the App dashboard.</p>
+
+    <h2>2. Provided Regional Datasets (NZ, AUS, CA, UK, USA)</h2>
+    <p>To assist with your store configuration, the App provides preset, country-specific default postcode lists covering various markets, currently targeting New Zealand, Australia, Canada, the United Kingdom, and the United States.</p>
+    <ul>
+        <li><strong>Accuracy Disclaimer:</strong> These default national postcode datasets are supplied in good faith. They are correct to the best of our knowledge at the time of publication.</li>
+        <li><strong>Potential Discrepancies:</strong> Postal networks change, and regional boundaries update. We do not warrant or guarantee that these default datasets are entirely flawless, complete, or up to date. Discrepancies may occur.</li>
+        <li><strong>Dataset Updates:</strong> We will update the default system lists periodically as we are notified of postal changes. However, we are under no obligation to monitor real-time courier updates.</li>
+        <li><strong>Active List Modification:</strong> While the core default templates cannot be altered directly, the store owner can modify, append, or delete items from their active, live storefront rules list at any time.</li>
+        <li><strong>Merchant Verification:</strong> You are strictly required to review and verify your active list within the App dashboard to ensure it aligns with your specific courier contracts before launching them live.</li>
+    </ul>
+
+    <h2>3. App Usage and Merchant Responsibilities</h2>
+    <p>By using this App, you agree to the following conditions:</p>
+    <ul>
+        <li><strong>Configuration Accuracy:</strong> You are entirely responsible for accurately verifying and maintaining your active rules. We are not responsible for lost sales, abandoned carts, or incorrect shipping charges resulting from misconfigured settings or dataset discrepancies.</li>
+        <li><strong>Compliance with Laws:</strong> You agree to use the App in compliance with all applicable local shipping, e-commerce, and consumer protection regulations.</li>
+        <li><strong>Checkout Integration:</strong> You acknowledge that the visibility of shipping options depends on Shopify’s active API availability and checkout processing environment.</li>
+    </ul>
+
+    <h2>4. Fees and Billing</h2>
+    <p>All charges associated with the App are handled securely through the Shopify platform:</p>
+    <ul>
+        <li><strong>Billing Cycle:</strong> Subscriptions and fees are billed directly via Shopify's standard billing infrastructure in accordance with your chosen plan.</li>
+        <li><strong>Refunds:</strong> All refund requests are governed by standard Shopify App Store policies. Please contact our support team directly to request a fee adjustment.</li>
+    </ul>
+
+    <h2>5. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, the App is provided "as is" and "as available" without warranties of any kind. We shall not be liable for any direct, indirect, incidental, or consequential damages—including but not limited to loss of revenue, profits, customer goodwill, or store downtime—arising from the use, inability to use, or reliance on data provided within the App.</p>
+
+    <h2>6. Termination and Data Deletion</h2>
+    <p>You can terminate this agreement at any time by simply uninstalling the App from your Shopify store admin dashboard. Upon uninstallation, your stored website URL and postcode configuration rules will be automatically purged from our servers within 48 hours in accordance with Shopify's platform rules.</p>
+
+    <h2>7. Changes to Terms</h2>
+    <p>We reserve the right to modify these Terms of Service at any time. Any changes will become immediately effective upon posting the updated terms within this document. Continued use of the App after updates constitutes your explicit acceptance of the new terms.</p>
+
+    <div class="contact-box">
+        <h2>8. Contact Support</h2>
+        <p>If you have any questions or require support troubleshooting your rules, please reach out to us at:</p>
+        <p><strong>Email:</strong> purplemouseonatricycle@gmail.com</p>
+    </div>
+</div>
+
+</body>
+</html>
