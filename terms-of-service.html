@@ -50,12 +50,40 @@
     </ul>
 
     <h2>3. App Usage and Merchant Responsibilities</h2>
-    <p>By using this App, you agree to the following conditions:</p>
-    <ul>
-        <li><strong>Configuration Accuracy:</strong> You are entirely responsible for accurately verifying and maintaining your active rules. We are not responsible for lost sales, abandoned carts, or incorrect shipping charges resulting from misconfigured settings or dataset discrepancies.</li>
-        <li><strong>Compliance with Laws:</strong> You agree to use the App in compliance with all applicable local shipping, e-commerce, and consumer protection regulations.</li>
-        <li><strong>Checkout Integration:</strong> You acknowledge that the visibility of shipping options depends on Shopify’s active API availability and checkout processing environment.</li>
-    </ul>
+
+<p>By using this App, you agree to the following conditions:</p>
+
+<ul>
+    <li><strong>Configuration Accuracy:</strong> You are entirely responsible for accurately verifying and maintaining your active rules. We are not responsible for lost sales, abandoned carts, or incorrect shipping charges resulting from misconfigured settings or dataset discrepancies.</li>
+
+    <li><strong>Compliance with Laws:</strong> You agree to use the App in compliance with all applicable local shipping, e-commerce, and consumer protection regulations.</li>
+
+    <li><strong>Checkout Integration:</strong> The App relies on Shopify's checkout platform, APIs, and Delivery Customization infrastructure to operate correctly.</li>
+</ul>
+
+<p>
+The App determines which shipping methods should be displayed based on the customer address information available to Shopify at the time checkout calculations occur.
+</p>
+
+<p>You acknowledge that:</p>
+
+<ul>
+    <li>Shipping method visibility is evaluated using the customer address information currently available to Shopify when checkout calculations occur.</li>
+
+    <li>Shopify may cache, retain, or reuse customer checkout sessions, addresses, shipping selections, and other checkout state information.</li>
+
+    <li>In certain circumstances, shipping methods may not immediately refresh when a customer returns to an existing checkout session, navigates away from checkout and returns, or uses previously saved address information.</li>
+
+    <li>The App cannot control Shopify's internal checkout caching, session management, address retention, shipping rate caching, or recalculation behaviour.</li>
+
+    <li>Merchants are responsible for testing their shipping configuration within their own storefront and checkout environment.</li>
+
+    <li>We do not guarantee that shipping methods will be recalculated instantly in every checkout scenario supported by Shopify.</li>
+</ul>
+
+<p>
+The App will attempt to apply configured postcode rules whenever Shopify invokes the associated Delivery Customization function. Final checkout behaviour remains subject to Shopify platform limitations, checkout state, caching mechanisms, and Shopify processing rules.
+</p>
 
     <h2>4. Fees and Billing</h2>
     <p>All charges associated with the App are handled securely through the Shopify platform:</p>
@@ -66,10 +94,32 @@
 
     <h2>5. Limitation of Liability</h2>
     <p>To the maximum extent permitted by applicable law, the App is provided "as is" and "as available" without warranties of any kind. We shall not be liable for any direct, indirect, incidental, or consequential damages—including but not limited to loss of revenue, profits, customer goodwill, or store downtime—arising from the use, inability to use, or reliance on data provided within the App.</p>
-
+<p>
+We are not responsible for discrepancies caused by Shopify checkout caching, saved customer addresses, previously created checkout sessions, accelerated checkout methods, third-party checkout modifications, customer browser cache, or other Shopify platform behaviour outside our control.
+</p>
     <h2>6. Termination and Data Deletion</h2>
-    <p>You can terminate this agreement at any time by simply uninstalling the App from your Shopify store admin dashboard. Upon uninstallation, your stored website URL and postcode configuration rules will be automatically purged from our servers within 48 hours in accordance with Shopify's platform rules.</p>
 
+<p>
+You may terminate this agreement at any time by uninstalling the App from your Shopify store.
+</p>
+
+<p>
+Upon uninstallation, merchant-specific data associated with your store will be automatically deleted following receipt of Shopify's uninstall webhook notification.
+</p>
+
+<p>
+Data typically includes:
+</p>
+
+<ul>
+    <li>Your Shopify store domain</li>
+    <li>Shipping method configuration settings</li>
+    <li>Uploaded postcode and postcode rule data</li>
+</ul>
+
+<p>
+Deletion may occur immediately upon receipt of Shopify's uninstall notification, however merchants should allow up to 48 hours for complete removal from all systems.
+</p>
     <h2>7. Changes to Terms</h2>
     <p>We reserve the right to modify these Terms of Service at any time. Any changes will become immediately effective upon posting the updated terms within this document. Continued use of the App after updates constitutes your explicit acceptance of the new terms.</p>
 
